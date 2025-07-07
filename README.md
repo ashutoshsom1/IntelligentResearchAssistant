@@ -30,7 +30,8 @@ cd intelligent-research-assistant
 2. Create a virtual environment and install dependencies:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+conda activate intelligent-research-assistant   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 

@@ -30,7 +30,7 @@ def get_llm(azure_deployment: str = DEFAULT_MODEL, temperature: float = DEFAULT_
         api_key=api_key
     )
 
-
+#prompt Guiding Component
 
 # Analyst Generation Component
 def create_analysts(state: GenerateAnalystsState) -> Dict[str, List[Analyst]]:
